@@ -1,0 +1,8 @@
+https://reactjs.org/tutorial/tutorial.html
+
+################################################################################
+# Questions
+################################################################################
+- Do we still need to deal with funky CSS?
+- Why does the super class need these properties?
+- When do we need to pass "() => func" vs "func"
