@@ -7,6 +7,9 @@ https://reactjs.org/tutorial/tutorial.html
 - Do we still need to deal with funky CSS?
 - Why does the super class need these properties?
 - When do we need to pass "() => func" vs "func"
+- how is the map() function receiving its params?
+- when do we need to use the `function` keyword?
+- what is `===`?
 
 
 ################################################################################
@@ -17,8 +20,26 @@ https://reactjs.org/tutorial/tutorial.html
   - return: views displayed by render() method
 - render(): return a React element
 - when data changes, React will update and re-render components
+- component state
+  - `this.state = {};`
+  - `this.setState({});`
 - all classes that have a constructor should start with a super(props) call
 - immutable data changes
   - complex features become simple
   - easier to detect changes
   - builds pure components which help determine when to re-render
+- keys
+  - "Keys tell React about the identity of each component which allows React to
+    maintain state between re-renders."
+  - "a special and reserved property in React"
+  - "It’s strongly recommended that you assign proper keys whenever you build
+    dynamic lists."
+
+
+################################################################################
+# JavaScript Concepts
+################################################################################
+- arrow function expressions
+  - `(param1, param2, …, paramN) => { statements }`
+  - `(param1, param2, …, paramN) => expression`
+  - `singleParam => { statements }`
