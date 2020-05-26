@@ -10,6 +10,8 @@ https://reactjs.org/tutorial/tutorial.html
 - how is the map() function receiving its params?
 - when do we need to use the `function` keyword?
 - what is `===`?
+- how does serviceWorker.js work, and how can I leverage it for my website
+- is there a need to do testing for my personal website?
 
 
 ################################################################################
@@ -34,6 +36,9 @@ https://reactjs.org/tutorial/tutorial.html
   - "a special and reserved property in React"
   - "It’s strongly recommended that you assign proper keys whenever you build
     dynamic lists."
+- building
+  - dev: `npm start`
+  - prod: `npm run build`
 
 
 ################################################################################
