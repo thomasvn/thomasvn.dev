@@ -11,8 +11,8 @@ function App() {
       <body>
         <h1>Thomas Nguyen</h1>
         <AboutMe></AboutMe>
-        <Projects></Projects>
-        <Writing></Writing>
+        {/* <Projects></Projects> */}
+        {/* <Writing></Writing> */}
       </body>
     </div>
   );

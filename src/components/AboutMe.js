@@ -4,15 +4,15 @@ import portrait from '../img/Thomas.jpg'
 class AboutMe extends React.Component {
   /**
    * TODO:
-   * - Add a picture of myself
    * - Add a single sentence about who I am
    * - Add a brief paragraph, then contact info and links
    */
   render() {
     return (
       <div className="AboutMe">
-        <p>Hi, I'm Thomas and I'm trying to build my first website</p>
-        <img src={portrait} alt="Thomas's Portrait"></img>
+        <img src={portrait} className="portrait" alt="Thomas's Portrait"></img>
+        <p>Hi! Glad to have you here.</p>
+        <p>This site's still under construction so please do come back soon.</p>
       </div>
     );
   }
