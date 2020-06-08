@@ -37,8 +37,23 @@
   }
 }
 
+
+/* thomasvn.dev */
 .portrait {
   border-radius: 50%;
   max-width: 20%;
   max-height: 20%;
+}
+
+.AboutMe {
+  animation: fadein 4s;
+}
+
+h1 {
+  animation: fadein 4s;
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
 }

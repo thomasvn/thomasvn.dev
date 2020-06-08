@@ -2,8 +2,8 @@ import React from 'react';
 import './App.css';
 
 import AboutMe from './components/AboutMe'
-import Projects from './components/Projects'
-import Writing from './components/Writing'
+// import Projects from './components/Projects'
+// import Writing from './components/Writing'
 
 function App() {
   return (
@@ -11,8 +11,6 @@ function App() {
       <body>
         <h1>Thomas Nguyen</h1>
         <AboutMe></AboutMe>
-        {/* <Projects></Projects> */}
-        {/* <Writing></Writing> */}
       </body>
     </div>
   );
