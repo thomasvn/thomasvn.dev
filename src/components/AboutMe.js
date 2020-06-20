@@ -6,7 +6,10 @@ class AboutMe extends React.Component {
     return (
       <div className="AboutMe">
         <div className="banner">
-          <h1 className="title">Thomas Nguyen</h1>
+          <div className="title">
+            <h1>Thomas Nguyen</h1>
+            <h5>Engineer <span role="img" aria-label="male technologist">👨🏻‍💻</span>, San Diego <span role="img" aria-label="pin">📍</span></h5>
+          </div>
           <img src={portrait} className="portrait" alt="Thomas's Portrait"></img>
         </div>
         <p>Hi! Glad to have you here.</p>
