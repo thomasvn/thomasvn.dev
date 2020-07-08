@@ -11,28 +11,26 @@ import AboutMe from './components/AboutMe'
 import Projects from './components/Projects'
 import Writing from './components/Writing'
 import Footer from './components/Footer'
-import MyNav from './components/MyNav'
+import Nav from './components/Nav'
 
 function App() {
   return (
     <div className='App'>
       <Router>
-
         <Switch>
           <Route exact path='/'>
-            <AboutMe/>
+            <AboutMe />
           </Route>
           <Route path='/projects'>
-            <MyNav/>
-            <Projects/>
+            <Nav />
+            <Projects />
           </Route>
           <Route path='/writing'>
-            <MyNav/>
-            <Writing/>
+            <Nav />
+            <Writing />
           </Route>
         </Switch>
-
-        <Footer/>
+        <Footer />
       </Router>
     </div>
   );

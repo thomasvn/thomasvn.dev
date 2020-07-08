@@ -5,11 +5,50 @@ html {
 
 .App {
   text-align: center;
-  animation: fadein 4s;
+  animation: fadein 3s;
 }
 
 p {
   font-size: 0.8em;
+}
+
+
+/* Nav */
+.Nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.Nav .brand {
+  padding-left: 2em;
+  padding-right: 0em;
+}
+
+.Nav .drop {
+  padding-left: 0em;
+  padding-right: 2em;
+}
+
+.Nav .brand li {
+  float: left;
+}
+
+.Nav .drop li {
+  float: right;
+}
+
+.Nav a {
+  display: block;
+  text-align: center;
+  padding: 1.5em;
+  text-decoration: none;
+  transition: transform 1s
+}
+
+.Nav a:hover {
+  transform: scale(1.1);
 }
 
 
