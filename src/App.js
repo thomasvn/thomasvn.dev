@@ -11,7 +11,7 @@ import AboutMe from './components/AboutMe'
 import Projects from './components/Projects'
 import Writing from './components/Writing'
 import Footer from './components/Footer'
-import Nav from './components/Nav'
+import MyNav from './components/MyNav'
 
 function App() {
   return (
@@ -23,11 +23,11 @@ function App() {
             <AboutMe/>
           </Route>
           <Route path='/projects'>
-            <Nav/>
+            <MyNav/>
             <Projects/>
           </Route>
           <Route path='/writing'>
-            <Nav/>
+            <MyNav/>
             <Writing/>
           </Route>
         </Switch>
