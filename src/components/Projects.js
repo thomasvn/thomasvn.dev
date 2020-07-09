@@ -10,6 +10,7 @@ class Projects extends React.Component {
           <li>Project2</li>
           <li>Project3</li>
         </ul>
+        <script data-goatcounter="https://thomasvn.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
       </div>
     );
   }

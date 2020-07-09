@@ -44,11 +44,11 @@ p {
   text-align: center;
   padding: 1.5em;
   text-decoration: none;
-  transition: transform 1s
+  transition: transform 0.5s
 }
 
 .Nav a:hover {
-  transform: scale(1.1);
+  transform: scale(1.03);
 }
 
 

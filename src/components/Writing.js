@@ -6,6 +6,7 @@ class Writing extends React.Component {
       <div className="Writing">
         <h1>What I'm writing ...</h1>
         <p>Check out my blog!</p>
+        <script data-goatcounter="https://thomasvn.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
       </div>
     );
   }
