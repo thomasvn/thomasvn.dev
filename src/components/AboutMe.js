@@ -24,7 +24,6 @@ class AboutMe extends React.Component {
             <li>understanding the powers of sleep</li>
           </ul>
         </div>
-        <script data-goatcounter="https://thomasvn.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
       </div>
     );
   }

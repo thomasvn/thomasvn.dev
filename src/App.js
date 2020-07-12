@@ -8,6 +8,8 @@ import {
 
 import './App.css';
 import AboutMe from './components/AboutMe'
+import ProjectHighlights from './components/ProjectHighlights'
+import WritingHighlights from './components/WritingHighlights'
 import Projects from './components/Projects'
 import Writing from './components/Writing'
 import Footer from './components/Footer'
@@ -20,6 +22,8 @@ function App() {
         <Switch>
           <Route exact path='/'>
             <AboutMe />
+            <ProjectHighlights />
+            <WritingHighlights />
           </Route>
           <Route path='/projects'>
             <Nav />
