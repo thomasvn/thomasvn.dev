@@ -3,13 +3,13 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
 } from 'react-router-dom';
 
 import './App.css';
 import AboutMe from './components/AboutMe'
 import ProjectHighlights from './components/ProjectHighlights'
 import WritingHighlights from './components/WritingHighlights'
+import ContributionHighlights from './components/ContributionHighlights'
 import Projects from './components/Projects'
 import Writing from './components/Writing'
 import Footer from './components/Footer'
@@ -24,6 +24,7 @@ function App() {
             <AboutMe />
             <ProjectHighlights />
             <WritingHighlights />
+            <ContributionHighlights />
           </Route>
           <Route path='/projects'>
             <Nav />
