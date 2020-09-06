@@ -13,15 +13,14 @@ class AboutMe extends React.Component {
           <img src={portrait} className="portrait" alt="Thomas's Portrait"></img>
         </div>
         <div className="intro">
-          <p>Hi! Glad to have you here. My name's Thomas, and I'm a software engineer based out of San Diego. I love thinking, building, reading, and writing. I'm most excited when I'm able to exchange new ideas with friends, and I'm trying my best to do a little more good each day. Let me know if you'd like to chat!</p>
+          <p>Hi! Glad to have you here. My name's Thomas, and I'm a software engineer based out of San Diego. I love thinking, building, reading, and writing. I really enjoy the exchange of new ideas, and I'm trying my best to do a little more good each day.</p>
         </div>
         <div className="interests">
           <p>Currently interested in:</p>
           <ul>
+            <li>binary exploitations</li>
             <li>javascript</li>
-            <li>functional programming</li>
             <li>computational biology</li>
-            <li>understanding the powers of sleep</li>
           </ul>
         </div>
       </div>
