@@ -1,0 +1,208 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/******************************************************************************/
+/* APP */
+html {
+  font-size: calc(0.5em + 0.75vw);
+  text-align: center;
+  animation: fadein 3s;
+}
+
+.App {
+  text-align: center;
+  animation: fadein 3s;
+}
+
+p {
+  font-size: 0.8em;
+}
+
+/******************************************************************************/
+/* NAV */
+.Nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.Nav .brand {
+  padding-left: 2em;
+  padding-right: 0em;
+}
+
+.Nav .drop {
+  padding-left: 0em;
+  padding-right: 2em;
+}
+
+.Nav .brand li {
+  float: left;
+}
+
+.Nav .drop li {
+  float: right;
+}
+
+.Nav a {
+  display: block;
+  text-align: center;
+  padding: 1.5em;
+  text-decoration: none;
+  transition: transform 0.5s
+}
+
+.Nav a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.Nav a:hover {
+  text-decoration: none;
+  color: #90cfff;
+}
+
+/******************************************************************************/
+/* ABOUT ME */
+.portrait {
+  border-radius: 50%;
+  max-width: 20%;
+  padding: 0.75em;
+}
+
+.title h1 {
+  margin: 0;
+  padding-top: 1.5em;
+}
+
+.title h5 {
+  margin: 0;
+  padding-top: 0.5em;
+  padding-bottom: 1.5em;
+}
+
+.intro {
+  padding-left: 25%;
+  padding-right: 25%;
+  padding-bottom: 1%;
+  text-align: justify;
+}
+
+.interests {
+  padding-left: 25%;
+  padding-right: 25%;
+  padding-bottom: 1%;
+  text-align: justify;
+  margin: 0;
+}
+
+.interests ul {
+  /* margin: 1%; */
+  font-size: 0.8em;
+}
+
+/******************************************************************************/
+/* PROJECT HIGHLIGHTS */
+.ProjectHighlights {
+  padding-left: 25%;
+  padding-right: 25%;
+  padding-bottom: 1%;
+  text-align: justify;
+}
+
+.ProjectHighlights ul {
+  font-size: 0.8em;
+}
+
+mark {
+  background-color: #ddf0ff;
+  color: black;
+}
+
+/******************************************************************************/
+/* WRITING HIGHLIGHTS */
+.WritingHighlights {
+  padding-left: 25%;
+  padding-right: 25%;
+  padding-bottom: 1%;
+  text-align: justify;
+}
+
+/******************************************************************************/
+/* CONTRIBUTION HIGHLIGHTS */
+.ContributionHighlights {
+  padding-left: 25%;
+  padding-right: 25%;
+  padding-bottom: 1%;
+  text-align: justify;
+}
+
+.ContributionHighlights ul {
+  font-size: 0.8em;
+}
+
+/******************************************************************************/
+/* MOBILE */
+@media screen and (max-width: 600px) {
+  .portrait {
+    max-width: 35%;
+    padding: 1.5em;
+  }
+
+  .intro {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+  }
+
+  .interests {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+  }
+
+  .ProjectHighlights {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+  }
+
+  .WritingHighlights {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+  }
+}
+
+/******************************************************************************/
+/* FOOTER */
+footer {
+  padding-top: 4%;
+  /* position: absolute; */
+  /* bottom: 5%; */
+  /* width: 100%; */
+}
+
+.logo {
+  width: 1.5em;
+  padding: 1em 0.5em;
+}
+
+/******************************************************************************/
+/* ANIMATIONS */
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
