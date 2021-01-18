@@ -1,0 +1,66 @@
+baseURL = "https://thomasvn.dev"
+languageCode = "en"
+DefaultContentLanguage = "en"
+title = "thomasvn.dev"
+theme = "anatole"
+enableEmoji = true
+enableRobotsTXT = true
+
+[params]
+title = "Glad to have you here!"
+author = "Thomas Nguyen"
+description = ""
+profilePicture = "images/profile.jpg"
+keywords = ""
+favicon = "favicons/"
+customCss = []
+customJs = []
+mainSections = []
+doNotLoadAnimations = true
+displayMode = "light"
+
+[[params.socialIcons]]
+icon = "fab fa-github"
+title = "GitHub"
+url = "https://github.com/thomasvn"
+
+[[params.socialIcons]]
+icon = "fab fa-linkedin"
+title = "Linkedin"
+url = "https://www.linkedin.com/in/thomasvn-/"
+
+[[params.socialIcons]]
+icon = "fas fa-envelope"
+title = "e-mail"
+url = "mailto:thomasnguyen96@gmail.com"
+
+[menu]
+  [[menu.main]]
+  name = "About"
+  identifier = "home"
+  weight = 100
+  url = "/"
+
+  [[menu.main]]
+  name = "Tweets"
+  weight = 200
+  identifier = "tweets"
+  url = "/tweets/"
+
+  [[menu.main]]
+  name = "Posts"
+  weight = 300
+  identifier = "posts"
+  url = "/posts/"
+
+  [[menu.main]]
+  name = "Projects"
+  weight = 400
+  identifier = "projects"
+  url = "/projects/"
+
+  [[menu.main]]
+  name = "Contributions"
+  weight = 500
+  identifier = "contributions"
+  url = "/contributions/"
