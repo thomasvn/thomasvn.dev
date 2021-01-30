@@ -9,7 +9,7 @@ draft: false
 I love thinking, building, reading, and writing. I really enjoy some quality conversation, and I’m trying my best to do a little more good each day.
 
 Currently interested in:
-* cloud architecture + cloud security
-* container security
-* javascript
-* philosophy of science
+- cloud architecture + cloud security
+- container security
+- javascript
+- philosophy of science
