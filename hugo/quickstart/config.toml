@@ -7,7 +7,7 @@ enableEmoji = true
 enableRobotsTXT = true
 
 [params]
-title = "Glad to have you here!"
+title = "Hey! Glad to have you here."
 author = "Thomas Nguyen"
 description = ""
 profilePicture = "images/profile.jpg"
@@ -60,7 +60,7 @@ url = "mailto:thomasnguyen96@gmail.com"
   url = "/projects/"
 
   [[menu.main]]
-  name = "Contributions"
+  name = "Giving"
   weight = 500
-  identifier = "contributions"
-  url = "/contributions/"
+  identifier = "giving"
+  url = "/giving/"
