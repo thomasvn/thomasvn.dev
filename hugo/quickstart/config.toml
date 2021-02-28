@@ -19,20 +19,20 @@ mainSections = []
 doNotLoadAnimations = true
 displayMode = "light"
 
-[[params.socialIcons]]
-icon = "fab fa-github"
-title = "GitHub"
-url = "https://github.com/thomasvn"
+  [[params.socialIcons]]
+  icon = "fab fa-github"
+  title = "GitHub"
+  url = "https://github.com/thomasvn"
 
-[[params.socialIcons]]
-icon = "fab fa-linkedin"
-title = "Linkedin"
-url = "https://www.linkedin.com/in/thomasvn-/"
+  [[params.socialIcons]]
+  icon = "fab fa-linkedin"
+  title = "Linkedin"
+  url = "https://www.linkedin.com/in/thomasvn-/"
 
-[[params.socialIcons]]
-icon = "fas fa-envelope"
-title = "e-mail"
-url = "mailto:thomasnguyen96@gmail.com"
+  [[params.socialIcons]]
+  icon = "fas fa-envelope"
+  title = "e-mail"
+  url = "mailto:thomasnguyen96@gmail.com"
 
 [menu]
   [[menu.main]]
@@ -65,3 +65,8 @@ url = "mailto:thomasnguyen96@gmail.com"
   identifier = "giving"
   url = "/giving/"
 
+
+[deployment]
+  [[deployment.targets]]
+  name = "thomasvn deploy"
+  URL = "s3://thomasvn.dev.deploy?region=us-west-1"
