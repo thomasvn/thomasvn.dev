@@ -3,7 +3,7 @@ title: ""
 date: 2021-01-17T21:23:56-08:00
 draft: false
 ---
-*brief thoughts I need to write down somewhere* 🐣
+🐣 *brief thoughts I need to write down somewhere*
 
 > Is distraction inherently bad? I'd say no. I find that it's often what leads to inspiration.
 (Feb 6, 2021)
