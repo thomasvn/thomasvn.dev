@@ -5,6 +5,10 @@ draft: false
 ---
 🐣 *brief thoughts I need to write down somewhere*
 
+> So … I’ve read and reread the book “Why We Sleep”. Understanding both the benefits and the harms of sleep is great. But honestly the only motivation I need is the fact that good sleep brings energy and vibrance to my day. Without that life becomes so bleak! (Feb 26, 2021)
+
+> It doesn’t seem wise to introduce a fast producer within a slow machine. Unless the producer has the freedom to change the way the machine works altogether, they will always be constrained by the bottleneck. (Feb 22, 2021)
+
 > Is distraction inherently bad? I'd say no. I find that it's often what leads to inspiration.
 (Feb 6, 2021)
 

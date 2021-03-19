@@ -21,7 +21,7 @@ draft: false
 
 **DNS Spoof Attack Simulation**: Set up a software defined network (SDN) containing a DNS server and two webservers. Then I set up an attacker machine to intercept DNS requests and respond with spoofed DNS requests to direct the victim towards a malicious web server. Tech stack: mininet, dnsmasq, scapy.
 
-**The Shrew Attack**
+**The Shrew Attack**: A reimplementation of Kuzmanovic's 2003 paper "Low-Rate TCP-Targeted Denial of Service Attacks". Targets the TCP implementation's retransmission time-out mechanism. Floods the router with traffic at optimal timing (right as the router is nearing the end of its time-out).
 
 **Proactive controllers used against SYN floods**
 
