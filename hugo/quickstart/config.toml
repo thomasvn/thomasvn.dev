@@ -18,6 +18,7 @@ customJs = []
 mainSections = []
 doNotLoadAnimations = true
 displayMode = "light"
+# contentratio = 0.9
 
   [[params.socialIcons]]
   icon = "fab fa-github"
@@ -32,7 +33,7 @@ displayMode = "light"
   [[params.socialIcons]]
   icon = "fas fa-envelope"
   title = "e-mail"
-  url = "mailto:thomasnguyen96@gmail.com"
+  url = "mailto:thomasvn.dev@gmail.com"
 
 [menu]
   [[menu.main]]

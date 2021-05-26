@@ -3,13 +3,13 @@ title: ""
 date: 2021-01-17T21:23:56-08:00
 draft: false
 ---
-🛡 [**Container Harden**](https://github.com/thomasvn/container-harden): An exercise to harden container and follow best practice. Informed by previous exploration into container scanning / exploitation.
+🛡 [**Container Harden**](https://github.com/thomasvn/container-harden): A container hardening exercise. Secure configurations informed by previous container scanning and exploitation.
 
-👀 [**Container Scan**](https://github.com/thomasvn/container-scan): An adventure through numerous container scanning tools and container penetration testing toolkits.
+👀 [**Container Scan**](https://github.com/thomasvn/container-scan): Playing around with different container scanning tools and container pentesting toolkits.
 
 🛑 [**Terraform Pause**](https://github.com/thomasvn/tf-pause): A small Makefile example to "pause" all Terraform-deployed AWS resources
 
-👨🏻‍💻 [**thomasvn.dev**](https://github.com/thomasvn/thomasvn.dev): Creating a space to share my work and my thoughts. Initially built using the React.js framework. Later stripped down to basic HTML/CSS for reduced complexity. Now in Hugo for simple static-site generation of Markdown content.
+👨🏻‍💻 [**thomasvn.dev**](https://github.com/thomasvn/thomasvn.dev): A space to share my work and my thoughts. Initially built using the React.js framework. Later stripped down to basic HTML/CSS for reduced complexity. Now in Hugo for simple static-site generation of Markdown content.
 
 ⛳️ [**CTF Writeups**](https://github.com/thomasvn/CTF-Writeups): I don't play CTFs often, but I'll document my problem solving when I do.
 

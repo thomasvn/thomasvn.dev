@@ -9,6 +9,7 @@ Hi! Glad to have you here. My name’s Thomas, and I’m a software engineer bas
 
 Currently interested in:
 - container security
-- cloud architecture + cloud security
-- javascript
-- philosophy of science
+- kubernetes security
+- 49ers football
+- cast iron skillets
+- intro to philosophy
