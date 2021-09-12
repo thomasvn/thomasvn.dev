@@ -16,9 +16,9 @@ hugo deploy
 ## Deploy to Firebase
 
 ```bash
-# Build the project with the base URL pointing to the S3 website endpoint
-hugo -b https://thomasvn.dev
-python3 quickstart/analytics.py
+$ hugo -b https://thomasvn.dev
+$ cd quickstart
+$ python analytics.py
 ```
 
 ```bash
