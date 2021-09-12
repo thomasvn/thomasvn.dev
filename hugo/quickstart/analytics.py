@@ -1,0 +1,1 @@
+# Add Cloudflare analytics to each html file in "public" directory

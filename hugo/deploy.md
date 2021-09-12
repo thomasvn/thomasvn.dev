@@ -1,12 +1,6 @@
-# Deploy static site to AWS S3
+# Deploying your static site
 
-## High Level Overview
-
-1. Build hugo project
-2. Put static files into AWS S3 bucket. Configure S3 bucket for public accessibility
-3. For HTTPS, required to deploy to AWS Cloudfront CDNs and register your SSL certificate.
-
-## Building the project
+## Deploy to S3
 
 ```bash
 # Build the project with the base URL pointing to the S3 website endpoint
@@ -19,18 +13,36 @@ hugo -b http://thomasvn.dev.deploy.s3-website.us-west-1.amazonaws.com/
 hugo deploy
 ```
 
-## S3 Configuration
+## Deploy to Firebase
 
-## HTTPS
+```bash
+# Build the project with the base URL pointing to the S3 website endpoint
+hugo -b https://thomasvn.dev
+python3 quickstart/analytics.py
+```
 
-## Resources
+```bash
+$ npm install -g firebase-tools
+$ firebase login
+$ cd quickstart
+$ firebase init
+# "Hosting: Configure files for Firebase Hosting and (optionally) set up GitHub Action deploys"
+# "Create a new project"
+$ firebase deploy
+```
 
-Tutorials
+## References
 
-- https://docs.aws.amazon.com/AmazonS3/latest/userguide/WebsiteHosting.html
-- https://aws.amazon.com/getting-started/projects/build-serverless-web-app-lambda-apigateway-s3-dynamodb-cognito/module-1/
+S3 Tutorials:
 
-CloudFront Info
+- <https://docs.aws.amazon.com/AmazonS3/latest/userguide/WebsiteHosting.html>
+- <https://aws.amazon.com/getting-started/projects/build-serverless-web-app-lambda-apigateway-s3-dynamodb-cognito/module-1/>
 
-- https://aws.amazon.com/premiumsupport/knowledge-center/cloudfront-https-requests-s3/
-- https://aws.amazon.com/premiumsupport/knowledge-center/cloudfront-serving-outdated-content-s3/
+CloudFront Info:
+
+- <https://aws.amazon.com/premiumsupport/knowledge-center/cloudfront-https-requests-s3/>
+- <https://aws.amazon.com/premiumsupport/knowledge-center/cloudfront-serving-outdated-content-s3/>
+
+Firebase:
+
+- <https://firebase.google.com/docs/hosting/>
