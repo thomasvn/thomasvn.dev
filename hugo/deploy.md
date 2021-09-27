@@ -17,7 +17,6 @@ hugo deploy
 
 ```bash
 $ hugo -b https://thomasvn.dev
-$ cd quickstart
 $ python analytics.py
 ```
 
