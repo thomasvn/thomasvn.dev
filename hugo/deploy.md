@@ -16,17 +16,24 @@ hugo deploy
 ## Deploy to Firebase
 
 ```bash
+# Build static site
+$ cd ./hugo/quickstart
 $ hugo -b https://thomasvn.dev
 $ python analytics.py
 ```
 
 ```bash
+# Set up Firebase (only needs to be run once)
 $ npm install -g firebase-tools
 $ firebase login
 $ cd quickstart
 $ firebase init
 # "Hosting: Configure files for Firebase Hosting and (optionally) set up GitHub Action deploys"
 # "Create a new project"
+```
+
+```bash
+# Deploy to Firebase
 $ firebase deploy
 ```
 
