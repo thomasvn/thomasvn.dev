@@ -5,7 +5,7 @@ draft: false
 ---
 These are a few of the causes that I make monthly donations to.
 
-I'd love for you to check out their websites, read their reports, and donate to their causes if you are able to at this time.
+I'd love for you to check out their websites, read their reports, and donate to their causes!
 
 - **Direct Relief**: providing global disaster relief and sustainable solutions
 - **LifeSTEPS**: empowering residents of California's affordable housing communities
