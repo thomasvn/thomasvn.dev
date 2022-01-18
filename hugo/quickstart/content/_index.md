@@ -16,3 +16,4 @@ Currently interested in:
 - 49ers football
 - intro to philosophy
 - surfing
+- listening to albums from start to finish

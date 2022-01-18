@@ -27,10 +27,23 @@ git submodule update --remote --merge
 
 <!--
 TODO:
+- switch themes:
+  - https://themes.gohugo.io/themes/keepit/
+  - https://themes.gohugo.io/themes/hugo-profile/
+  - https://themes.gohugo.io/themes/gokarna/
+  - https://themes.gohugo.io/themes/showfolio-hugo-theme/
+  - https://themes.gohugo.io/themes/hugo-theme-pico/
+  - https://themes.gohugo.io/themes/hugo-goa/
+  - https://themes.gohugo.io/themes/hugo-sustain/
+  - https://themes.gohugo.io/themes/loveit/
+  - https://themes.gohugo.io/themes/hugo-theme-hello-friend-ng/
+  - https://themes.gohugo.io/themes/hermit/
 - Customizable css to get rid of the ugly parts of 'anatole'?
 - customize blog to use categories, tags, dates, est time to read
 - setup an RSS feed for my blog?
 - try to figure out how to use the bare bones version of Hugo
+- link to my Instagram?
+- create a "gallery"?
 
 QUESTIONS:
 -->

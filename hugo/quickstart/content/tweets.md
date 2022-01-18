@@ -5,6 +5,9 @@ draft: false
 ---
 #### 🐣 *brief thoughts I need to write down somewhere*
 
+"To me, getting “organized” is not just about cleaning your desk, your kitchen, your living room, or your digital folders. It’s really about taking the time to get to know yourself and the space you inhabit"  
+Jan 17, 2022
+
 "A bookshop is a sanctuary of thought. A bookshop represents the voice of the community. What it chooses to include and exclude is interesting to notice."  
 Oct 1, 2021
 
@@ -14,7 +17,7 @@ Sep 6, 2021
 "Funny how they call it 'Do Not Disturb' Mode. Is it the acknowledgement that the app is otherwise typically a disturbance to your life?"  
 Aug 16, 2021
 
-"Vulnerability is often an admirable characteristic. But seemingly only when all your positives can outweigh your negatives. Otherwise you're just further confirming your ineptitude."  
+"Vulnerability is often an admirable characteristic. But seemingly only when all your positives can outweigh your negatives. Otherwise you're just further confirming your incapability."  
 Aug 14, 2021
 
 "Sitting and observing an entire city in motion."  
