@@ -17,3 +17,4 @@ Currently interested in:
 - intro to philosophy
 - surfing
 - listening to albums from start to finish
+- bourbon whiskey
