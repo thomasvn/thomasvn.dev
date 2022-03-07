@@ -33,6 +33,7 @@ $ firebase init
 ```
 
 ```bash
+# Ensure firebase.json points to the correct project
 # Deploy to Firebase
 $ firebase deploy
 ```
