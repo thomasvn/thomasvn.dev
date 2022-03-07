@@ -41,6 +41,12 @@ Other interesting themes:
 
 <!--
 TODO:
+- KeepIt
+  - fix submodule
+  - default to light theme
+  - code block syntax highlighting
+    - https://gohugo.io/content-management/syntax-highlighting/
+  - figure out how to show the different categories
 - KeepIt CSS
   - add custom CSS file
   - logos for social links should be smaller
