@@ -19,7 +19,7 @@ hugo deploy
 # Build static site
 $ cd ./hugo/quickstart
 $ hugo -b https://thomasvn.dev
-$ python analytics.py
+$ python3 analytics.py
 ```
 
 ```bash
