@@ -9,15 +9,11 @@ draft: false
 
 Hey! Glad to have you here. I mostly spend my time thinking, building, reading, and writing. And I'm continuously trying to do a little more good each day.
 
-Current interests:
+## Current interests ...
 
-- container security
-- kubernetes security
-- 49ers football
-- intro to philosophy
-- surfing
+- previously container security, now cloud security
+- warriors basketball
 - listening to albums from start to finish
-- bourbon whiskey
 
 ## Giving
 
@@ -28,6 +24,7 @@ These are a few of the causes that I make monthly donations to. I'd love for you
 - [WordsAlive San Diego](https://www.wordsalive.org/): inspiring students to identify as learners and readers
 - [Feeding San Diego](https://feedingsandiego.org/): connecting people facing hunger with nutritious meals
 
+<!--
 ## Projects
 
 - 🔒 [Container Harden](https://github.com/thomasvn/container-harden): A container hardening exercise. Secure configurations informed by previous container scanning and exploitation.
@@ -44,3 +41,4 @@ These are a few of the causes that I make monthly donations to. I'd love for you
 - *Base implementation of stateful firewall*
 - *Dafny verification language*
 - *Build It Break It*
+-->
