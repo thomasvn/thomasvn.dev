@@ -5,15 +5,14 @@ draft: false
 ---
 # Thomas Nguyen
 
-## 👨🏻‍💻 Engineer, 📍 San Diego
+Hey 👋, glad to have you here! I’m mostly using this space to share what I’m currently thinking and building. I’d love to hear your thoughts too, so please reach out!
 
-Hey! Glad to have you here. I mostly spend my time thinking, building, reading, and writing. And I'm continuously trying to do a little more good each day.
+## Current interests
 
-## Current interests ...
-
-- previously container security, now cloud security
-- warriors basketball
-- listening to albums from start to finish
+- golang
+- 49ers football
+- playing basketball
+- music albums
 
 ## Giving
 
