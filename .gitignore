@@ -1,5 +1,6 @@
 # Environment
 .vscode
+.DS_Store
 
 # Libraries
 node_modules
